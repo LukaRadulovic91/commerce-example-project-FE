@@ -1,0 +1,33 @@
+.icon-textfield {
+	background: #1e2023;
+	color: #fff;
+	border: 1px solid transparent;
+	border-radius: 15px;
+	padding: 8px 10px;
+	transition: all 0.25s linear;
+	height: 50px;
+
+	display: flex;
+	align-items: center;
+}
+
+.icon-textfield:focus-within {
+	border: 1px solid #e7ad4b !important;
+}
+
+.icon-textfield > label {
+	margin: 0 10px;
+}
+.icon-textfield > input,
+.icon-textfield > select {
+	flex-basis: 0;
+	flex-grow: 1;
+	border: 0;
+	background: transparent !important;
+}
+
+.icon-textfield > input:-webkit-autofill {
+	-webkit-box-shadow: 0 0 0 50px #1e2023 inset;
+	-webkit-text-fill-color: white;
+	border: 0;
+}

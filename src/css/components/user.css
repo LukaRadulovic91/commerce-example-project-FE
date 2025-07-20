@@ -1,0 +1,50 @@
+.user-profile-container {
+	max-width: 374px!important;
+	max-height: 490px!important;
+    width: 100%;
+    margin: auto auto;
+    min-height: 542px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: #F4F4F480;
+}
+
+.user-profile-header {
+    margin-top: 8px;
+    margin-left: 8px;
+    margin-bottom: 8px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #101010ec;
+}
+
+.user-profile-label {
+    color: #101010ec;
+    margin-left: 8px;
+    margin-right: 8px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.user-profile-data {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.buyer-profile-container {
+    max-width: 1230px;
+}
+
+.user-avatar {
+    width: 120px;
+    height: 120px;
+}
+
+.user-profile {
+    background-color: #26262620;
+}
+
+.user-profile-avatar {
+    border-bottom: 1px solid #000;
+}

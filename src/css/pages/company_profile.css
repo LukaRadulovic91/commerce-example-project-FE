@@ -1,0 +1,61 @@
+.company-profile-content {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    max-width: 1280px;
+}
+
+.company-profile-form-container {
+    max-width: 1280px;
+    background-color: #fff;
+    opacity: 0.8;
+    box-shadow: 0px 0px 12px #999999;
+    margin: auto auto;
+    padding-bottom: 40px;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.company-profile-button {
+    background-color: theme('colors.buttonPrimary.DEFAULT');
+    color: #fff;
+    border: 0!important;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 6px 20px;
+}
+
+.company-profile-disabled-button {
+    background-color: theme('colors.buttonDisabled.DEFAULT');
+    color: #fff;
+    border: 0!important;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 6px 20px;
+}
+
+.company-profile-section-header {
+    background-color: theme('colors.buttonPrimary.DEFAULT');
+    color: #fff;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 7px 16px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.company-profile-field-label {
+    padding: 7px 0px;
+}
+
+.company-profile-field-input {
+    min-width: 100px;
+}
+
+.company-profile-field-input.attention {
+    border: 1px solid #D84E20;
+}

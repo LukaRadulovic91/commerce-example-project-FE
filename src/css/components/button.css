@@ -1,0 +1,69 @@
+.button {
+	border: 1px solid theme('colors.primary.DEFAULT');
+	color: theme('colors.primary.DEFAULT');
+	border-radius: 4px;
+	padding: 0px 11px;
+	cursor: pointer;
+	text-align: center;
+	line-height: 34px;
+	min-height: 34px;
+	font-weight: 600;
+	font-size: 12px;
+	transition: all 0.15s linear;
+	text-transform: uppercase;
+	display: inline-block;
+	box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.2);
+}
+.button-primary {
+	background-color: theme('colors.primary.DEFAULT');
+	color: #fff;
+}
+
+.button:hover,
+.button:focus {
+	color: #fff;
+	background-color: theme('colors.primary.DEFAULT');
+	box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.4);
+}
+fieldset:disabled .button,
+.button.disabled,
+.button:disabled {
+	color: #fff;
+	border-color: #bbb4ba;
+	cursor: auto;
+	background-color: #bbb4ba !important;
+}
+.button-small {
+	height: 24px;
+	line-height: 24px;
+	min-height: 24px;
+	font-size: 13px;
+}
+
+.button-full {
+	width: 100%;
+	min-width: 110px;
+	padding: 8px 11px;
+	text-transform: uppercase;
+}
+
+.button-positive {
+    background-color: theme('colors.buttonPrimary.DEFAULT');
+    color: #fff;
+    border: 0!important;
+}
+
+.button-negative {
+    background-color: theme('colors.buttonDisabled.DEFAULT');
+    color: #fff;
+    border: 0!important;
+}
+
+.logout-button {
+	cursor: pointer;
+	margin-top: auto;
+	margin-bottom: auto;
+	padding-right: 2px;
+	height: 14px;
+	line-height: 14px;
+}

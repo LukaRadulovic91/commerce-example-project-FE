@@ -1,0 +1,79 @@
+.login-form-container {
+    max-width: 800px;
+    width: 100%;
+    background-color: #fff;
+    opacity: 0.8;
+    box-shadow: 0px 0px 12px #999999;
+    margin: auto auto;
+    padding-bottom: 40px;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.login-button {
+    background-color: theme('colors.buttonPrimary.DEFAULT');
+    color: #fff;
+    border: 0!important;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 6px 20px;
+    max-height: 48px;
+}
+
+.signup-button {
+    background-color: theme('colors.buttonDisabled.DEFAULT');
+    color: #fff;
+    border: 0!important;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 6px 20px;
+}
+
+.dk-signup-form-container {
+    max-width: 500px;
+    width: 100%;
+    margin: auto auto;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.dk-signup-tabs {
+    display: flex;
+    flex-direction: row;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+}
+
+.dk-signup-tab {
+    background-color: #dadada;
+    color: #464646;
+    width: 50%;
+    text-align: center;
+    font-weight: bold;
+    user-select: none;
+    cursor: pointer;
+}
+
+.dk-signup-tab.active {
+    background-color: #464646!important;
+    color: #f7f7f7!important;
+}
+
+.dk-signup-tab-caret {
+    position: relative;
+    height: 12px;
+    margin-top: -12px;
+    width: 100%;
+    background-color: #f7f7f7!important;
+    clip-path: polygon(50% 0%, 45% 100%, 55% 100%);
+}
+
+.form-vertical-full fieldset {
+    height: 100%;
+}

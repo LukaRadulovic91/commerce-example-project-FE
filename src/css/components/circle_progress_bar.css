@@ -1,0 +1,8 @@
+.circle-progress-bar .background {
+	fill: none;
+	stroke: #17191c;
+}
+.circle-progress-bar .percentage {
+	fill: none;
+	stroke: theme('colors.primary.DEFAULT');
+}

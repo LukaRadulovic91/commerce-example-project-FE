@@ -1,0 +1,21 @@
+.textfield {
+	padding: 2px 10px;
+	transition: all 0.25s linear;
+	border: 1px solid transparent;
+	border-radius: 5px;
+	color: theme('colors.greyText.DEFAULT');
+}
+
+.textfield.bordered {
+    border: 1px solid #98A2AF!important;
+}
+.textfield > input {
+	background-color: transparent;
+	border-radius: 5px !important;
+}
+.textfield:disabled {
+	background-color: rgb(165, 164, 164);
+}
+.textfield:disabled > input {
+	color: #666 !important;
+}

@@ -1,0 +1,9 @@
+.cropper-background {
+	top: 0px;
+}
+
+@media (min-width: 640px) {
+	.cropper-background {
+		top: 50px;
+	}
+}

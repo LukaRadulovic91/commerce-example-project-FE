@@ -1,0 +1,231 @@
+
+.tree { margin: 2em; }
+
+.tree input {
+  position: absolute;
+  clip: rect(0, 0, 0, 0);
+  }
+
+.tree input ~ ul { display: none; }
+
+.tree input:checked ~ ul { display: block; }
+
+/* ————————————————————–
+  Tree rows
+*/
+.tree li {
+  line-height: 1.2;
+  position: relative;
+  padding: 0 0 2em 2em;
+  }
+
+.tree ul li { padding: 2em 0 0 2em; }
+
+.tree > li:last-child { padding-bottom: 0; }
+
+/* ————————————————————–
+  Tree labels
+*/
+.tree_label {
+  position: relative;
+  display: inline-block;
+  line-height: 2em;
+  margin-left: 1px;
+	max-width: 60%;
+  white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+label.tree_label { cursor: pointer; }
+
+label.tree_label:hover { color: #666; }
+
+/* ————————————————————–
+  Tree expanded icon
+*/
+label.tree_label:before {
+  background: #D94E21;
+  color: #fff;
+  position: relative;
+  z-index: 1;
+  float: left;
+  margin: 0 2em 0 -3.5em;
+  width: 2em;
+  height: 2em;
+  border-radius: 2em;
+  content: '+';
+  font-size: 1em;
+  font-weight: 800;
+  text-align: center;
+  line-height: 2em;
+  }
+
+:checked ~ label.tree_label:before { content: "-"; line-height: 1.9em;}
+
+/* ————————————————————–
+  Tree branches
+*/
+.tree li:before {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: -.5em;
+  display: block;
+  width: 0;
+  border-left: 1px solid #777;
+  content: "";
+  }
+
+
+.tree li:not(:last-child):not(:first-child):before {
+  transform: translateY(-1em);
+  }
+
+.tree_label:after {
+  position: absolute;
+  top: 0;
+  left: -2.5em;
+  display: block;
+  height: 1em;
+  width: 2em;
+  border-bottom: 1px solid #777;
+  border-left: 1px solid #777;
+  content: '';
+  }
+
+label.tree_label:after { border-bottom: 0; }
+
+:checked ~ label.tree_label:after {
+  border-top: 1px solid #777;
+  border-right: 1px solid #777;
+  border-bottom: 0;
+  border-left: 0;
+  bottom: 0;
+  top: 1em;
+  height: auto;
+  }
+
+.tree li:last-child:before {
+  height: 2em;
+  bottom: auto;
+  }
+
+.tree > li:last-child:before { display: none; }
+
+.tree_custom {
+  display: block;
+  background: #eee;
+  padding: 2em;
+}
+
+.final-level:before {
+  border-bottom: 1px solid #777!important;
+  width: 2em!important;
+  padding-bottom: 1em!important;
+  transform: translateY(-1em);
+  bottom: 0!important;
+  height: auto!important;
+}
+
+/* .final-level:not(:last-child):before {
+  border-bottom: 1px solid #777!important;
+  border-left: 1px solid #777;
+} */
+
+
+.tree-container {
+  max-height: 60vh;
+  overflow-y: scroll;
+}
+
+.home-tree { 
+  margin-top: 1em; 
+  margin-bottom: 1em;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}
+
+.home-tree input {
+  position: absolute;
+  clip: rect(0, 0, 0, 0);
+  }
+
+.home-tree input ~ ul { display: none; }
+
+.home-tree input:checked ~ ul { display: block; }
+
+/* ————————————————————–
+  Tree rows
+*/
+.home-tree li {
+  line-height: 1.2;
+  position: relative;
+  padding: 0 0 0.5em 0.5em;
+  }
+
+.home-tree ul li { padding: 0.5em 0 0 0.5em; }
+
+.home-tree > li:last-child { padding-bottom: 0; }
+
+/* ————————————————————–
+  Tree labels
+*/
+.home-tree_label {
+  position: relative;
+  display: inline-block;
+  line-height: 2em;
+  margin-left: 1px;
+	max-width: 60%;
+  white-space: nowrap;
+	text-overflow: ellipsis;
+  font-size: 12px;
+}
+
+label.home-tree_label { cursor: pointer; }
+
+label.home-tree_label:hover { color: #666; }
+.home-tree input:checked ~ label.home-tree_label { font-weight: bold; }
+
+/* ————————————————————–
+  Tree expanded icon
+*/
+/* ————————————————————–
+  Tree branches
+*/
+
+.home-tree li:last-child:before {
+  height: 2em;
+  bottom: auto;
+  }
+
+.home-tree > li:last-child:before { display: none; }
+
+.home-tree_custom {
+  display: block;
+  background: #eee;
+  padding: 2em;
+}
+
+.home-final-level:before {
+  border-bottom: 1px solid #777!important;
+  width: 2em!important;
+  padding-bottom: 1em!important;
+  transform: translateY(-1em);
+  bottom: 0!important;
+  height: auto!important;
+}
+
+.home-tree-container {
+  overflow-y: scroll;
+}
+
+.home-tree-category-id {
+  line-height: 2em;
+  font-size: 12px;
+}
+
+.home-tree-second-level {
+  background-color: #f6f6f6!important;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}

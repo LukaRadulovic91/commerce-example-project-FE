@@ -1,0 +1,36 @@
+.checkbox input {
+	display: none;
+}
+.checkbox .checkbox-div {
+	width: 16px;
+	height: 16px;
+	background-color: #bbbab8;
+	border-radius: 2px;
+	cursor: pointer;
+	transition: background-color 0.3s;
+	margin-right: 4px;
+}
+
+.checkbox-div.checked:after {
+    content: "\f00c";  /* this is your text. You can also use UTF-8 character codes as I do here */
+	font-family: "Font Awesome 5 Free";
+	font-weight: 900;
+	position: relative;
+	top: -3px;
+	left: 1px;
+	width: 100%;
+	height: 100%;
+ }
+input:checked + .checkbox-div {
+	background-color: #000000!important;
+}
+input:disabled:checked + .checkbox-div {
+	filter: grayscale(0.5);
+	background-color: theme('colors.primary.DEFAULT');
+}
+input:disabled + .checkbox-div {
+	background-color: theme('colors.gray');
+}
+.checkbox label {
+	user-select: none;
+}

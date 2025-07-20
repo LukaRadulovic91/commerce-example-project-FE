@@ -1,0 +1,315 @@
+@import 'reset';
+@import 'lib/famfamfam';
+@import 'lib/flag';
+@import 'lib/tailwind';
+@import 'fonts';
+@import 'components/button';
+@import 'components/modal';
+@import 'components/snackbar';
+@import 'components/toggle_checkbox';
+@import 'components/checkbox';
+@import 'components/textfield';
+@import 'components/icon_textfield';
+@import 'components/form_progress';
+@import 'components/circle_progress_bar';
+@import 'components/dropdown_combobox';
+@import 'components/login_form.css';
+@import 'components/tree';
+@import 'components/header';
+@import 'components/top_bar';
+@import 'components/home_carousel';
+@import 'components/admin.css';
+@import 'components/product.css';
+@import 'components/banner.css';
+@import 'components/footer.css';
+@import 'components/user.css';
+@import url("https://use.fontawesome.com/releases/v5.13.0/css/all.css");
+
+body {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-overflow-scrolling: touch;
+	background-color: #fff;
+	color: #101010;
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	touch-action: manipulation;
+	position: relative;
+	font-weight: 400;
+}
+
+.unselectable,
+.clickable,
+.button {
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	-webkit-touch-callout: none;
+	user-select: none;
+}
+
+.clickable {
+	cursor: pointer;
+}
+.clickable:hover,
+.clickable:active {
+	filter: sepia() saturate(0%) hue-rotate(0deg);
+}
+
+select,
+input:not([type='checkbox']):not([type='radio']),
+textarea {
+	background: #ffffff;
+	color: #101010;
+    border: 1px solid #98A2AF;
+    border-radius: 4px;
+	padding: 12px 10px;
+	transition: all 0.25s linear;
+}
+
+select,
+input:not([type='checkbox']):not([type='radio']) {
+	height: 42px;
+}
+textarea {
+	resize: none;
+	height: 100px;
+	min-width: 350px;
+	max-width: 100%;
+}
+.disabled {
+	color: gray!important;
+	user-select: none;
+}
+
+fieldset:disabled input,
+fieldset:disabled textarea,
+fieldset:disabled select {
+	background-color: rgb(165, 164, 164)!important;
+}
+input[type="number"]::-webkit-outer-spin-button, input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+ 
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+form.w-full fieldset {
+	padding-left: 0;
+	padding-right: 0;
+}
+form.w-full fieldset {
+	width: 100%;
+}
+form.w-full > *,
+form.w-full > fieldset > * {
+	width: 100%;
+}
+
+p {
+	line-height: 24px;
+}
+
+#content-outer {
+}
+
+#content{
+}
+
+.content-bg-image {
+	display: block;
+	position: fixed;
+	z-index: -2;
+	width: 100%;
+	height: 100%;
+	top: 50px;
+	left: 0;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: 100%;
+	background-image: url(../img/background/Bgnd1.png);
+}
+
+.content-home-bg-image {
+	display: block;
+	position: fixed;
+	z-index: -2;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: 100%;
+	background-image: url(../img/background/bgnd.png);
+}
+
+.inner-wrapper {
+	width: 100%;
+	height: 100%;
+	margin: 0px auto;
+	position: relative;
+}
+
+.max-width-1080 {
+	max-width: 1080px;
+}
+
+.full-width-content {
+	max-width: 100%;
+}
+
+.centered-content {
+	margin: 0px auto;
+	position: relative;
+}
+
+.circle-border-primary {
+	border: 1px solid theme('colors.primary.DEFAULT');
+	border-radius: 50%;
+}
+.circle-border-gray {
+	border: 2px solid #555;
+	background-color: #444;
+	border-radius: 50%;
+}
+
+.fill-primary {
+	fill: theme('colors.primary.DEFAULT');
+}
+.stroke-primary {
+	stroke: theme('colors.primary.DEFAULT');
+}
+
+hr {
+	height: 1px;
+	border: 0;
+	box-shadow: inset 0 12px 12px -12px rgba(80, 80, 80, 0.6);
+}
+
+.flex-basis-0 {
+	flex-basis: 0;
+}
+
+.rounded-border-left {
+	border-radius: 12% 0 0% 12%;
+}
+
+.logo {
+	height: 80px !important;
+	width: 220px !important;
+	display: block;
+	background-image: url(../img/Digitalna_Komora_Logo_1.png);
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.dk-header-logo {
+	height: 80px !important;
+	width: 313px !important;
+	display: block;
+	background-image: url(../img/Digitalna_Komora_Logo_1.png);
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin-top: -21px;
+}
+
+.vtk_logo_wrapper {
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+	height: 125px !important;
+	width: 390px !important;
+	border-radius: 35px;
+	background-color: white;
+}
+
+.vtk_logo {
+	margin-left: auto;
+	margin-right: auto;
+	height: 80px !important;
+	width: 300px !important;
+	display: block;
+	background-image: url(../img/LogoTransparentVTK.png);
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+
+.vtk_logo_horizontal {
+	margin-left: auto;
+	margin-right: auto;
+	height: 80px !important;
+	width: 300px !important;
+	display: block;
+	background-image: url(../img/LogoTransparentVTKHor.png);
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.play-video-icon {
+	width: 65px;
+	height: 65px;
+	display: block;
+	background-image: url(../img/icons/VideoButton.png);
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.welcome-header {
+	max-width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.pagination {
+	display: inline-block;
+	padding-left: 15px;
+	padding-right: 15px;
+	width: 100%;
+	max-width: 1000px;
+
+}
+  
+.pagination li {
+	display: inline-block;
+	padding: 3px;
+}
+
+.pagination li.active {
+	background-color: #ec9938!important;
+}
+
+.pagination li.previous {
+	padding-right: 5px
+}
+
+.pagination li.next {
+	padding-left: 5px
+}
+
+.gray-circle-icon {
+	color: transparent;
+}
+
+.yellow-circle-icon {
+	color: #EC9938;
+}
+
+.positive-text {
+	color: #3eec38;
+}
+
+.negative-text {
+	color: #ec3838;
+}
+
+.divider {
+	height: 1px;
+	border-bottom: 1px solid #ec993850;
+}

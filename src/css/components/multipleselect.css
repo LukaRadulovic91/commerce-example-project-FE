@@ -1,0 +1,34 @@
+.multiple-select {
+	width: 100%;
+	min-height: 42px;
+	font-size: 13px;
+	padding: 5px 15px 15px;
+	border: 1px solid #ccc;
+	transition: border 0.25s linear;
+}
+
+.multiple-select-search {
+	width: 100%;
+	padding: 0;
+	height: 35px;
+	border: 0;
+	border-bottom: 1px solid #ccc;
+}
+
+.multiple-select-options {
+	margin-top: 1em;
+	max-height: 200px;
+	overflow: auto;
+}
+
+.multiple-select-option {
+	margin-top: 0.5em;
+}
+
+input[type='checkbox'] {
+	vertical-align: middle;
+}
+
+input[type='checkbox']:hover {
+	cursor: pointer;
+}

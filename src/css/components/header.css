@@ -1,0 +1,47 @@
+.header {
+    max-width: 1630px;
+    margin-top: 8px;
+    padding-top: 20px;
+    padding-bottom: 28px;
+}
+.header-container {
+    background-color: #26262620;
+}
+
+.header-search-bar {
+    border: 1px solid #ec5020;
+    border-radius: 0px;
+    margin-left: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.header-search-bar-type-dropdown {
+    border: none !important;
+    border-radius: 0px !important;
+    background-color: #f6f6f6;
+    color: #88888a;
+    min-width: 140px;
+    cursor: pointer;
+}
+
+.header-search-field {
+    border-radius: 0px!important;
+    border: none !important;
+    width: 100%;
+    background-color: white;
+}
+
+.header-search-button {
+    color: white !important;
+    background-color: #ec5020!important;
+    border-radius: 0px!important;
+    border: none!important;
+    width: 42px;
+    padding: 0;
+}
+
+.header-contact-number {
+    text-align: end;
+    color: #898F82;
+}

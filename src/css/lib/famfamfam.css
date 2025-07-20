@@ -1,0 +1,748 @@
+.famfamfam-flag {
+	display: inline-block;
+	width: 16px;
+	height: 11px;
+	line-height: 11px;
+	/* background-image: url(../../img/flags/famfamfam.png); */
+	background-position: 0 0;
+	background-repeat: no-repeat;
+}
+
+.famfamfam-flag-ad {
+	background-position: 0 0;
+}
+.famfamfam-flag-ae {
+	background-position: -16px 0;
+}
+.famfamfam-flag-af {
+	background-position: -32px 0;
+}
+.famfamfam-flag-ag {
+	background-position: -48px 0;
+}
+.famfamfam-flag-ai {
+	background-position: -64px 0;
+}
+.famfamfam-flag-al {
+	background-position: -80px 0;
+}
+.famfamfam-flag-am {
+	background-position: -96px 0;
+}
+.famfamfam-flag-an {
+	background-position: -112px 0;
+}
+.famfamfam-flag-ao {
+	background-position: -128px 0;
+}
+.famfamfam-flag-ar {
+	background-position: -144px 0;
+}
+.famfamfam-flag-as {
+	background-position: -160px 0;
+}
+.famfamfam-flag-at {
+	background-position: -176px 0;
+}
+.famfamfam-flag-au {
+	background-position: -192px 0;
+}
+.famfamfam-flag-aw {
+	background-position: -208px 0;
+}
+.famfamfam-flag-ax {
+	background-position: -224px 0;
+}
+.famfamfam-flag-az {
+	background-position: -240px 0;
+}
+.famfamfam-flag-ba {
+	background-position: -256px 0;
+}
+.famfamfam-flag-bb {
+	background-position: -272px 0;
+}
+.famfamfam-flag-bd {
+	background-position: -288px 0;
+}
+.famfamfam-flag-be {
+	background-position: 0 -11px;
+}
+.famfamfam-flag-bf {
+	background-position: -16px -11px;
+}
+.famfamfam-flag-bg {
+	background-position: -32px -11px;
+}
+.famfamfam-flag-bh {
+	background-position: -48px -11px;
+}
+.famfamfam-flag-bi {
+	background-position: -64px -11px;
+}
+.famfamfam-flag-bj {
+	background-position: -80px -11px;
+}
+.famfamfam-flag-bl {
+	background-position: -192px -33px;
+}
+.famfamfam-flag-bm {
+	background-position: -96px -11px;
+}
+.famfamfam-flag-bn {
+	background-position: -112px -11px;
+}
+.famfamfam-flag-bo {
+	background-position: -128px -11px;
+}
+.famfamfam-flag-br {
+	background-position: -144px -11px;
+}
+.famfamfam-flag-bs {
+	background-position: -160px -11px;
+}
+.famfamfam-flag-bt {
+	background-position: -176px -11px;
+}
+.famfamfam-flag-bv {
+	background-position: -96px -88px;
+}
+.famfamfam-flag-bw {
+	background-position: -192px -11px;
+}
+.famfamfam-flag-by {
+	background-position: -208px -11px;
+}
+.famfamfam-flag-bz {
+	background-position: -224px -11px;
+}
+.famfamfam-flag-ca {
+	background-position: -240px -11px;
+}
+.famfamfam-flag-cc {
+	background-position: -256px -11px;
+}
+.famfamfam-flag-cd {
+	background-position: -272px -11px;
+}
+.famfamfam-flag-cf {
+	background-position: -288px -11px;
+}
+.famfamfam-flag-cg {
+	background-position: 0 -22px;
+}
+.famfamfam-flag-ch {
+	width: 11px;
+	background-position: -160px -77px;
+}
+.famfamfam-flag-ci {
+	background-position: -16px -22px;
+}
+.famfamfam-flag-ck {
+	background-position: -32px -22px;
+}
+.famfamfam-flag-cl {
+	background-position: -48px -22px;
+}
+.famfamfam-flag-cm {
+	background-position: -64px -22px;
+}
+.famfamfam-flag-cn {
+	background-position: -80px -22px;
+}
+.famfamfam-flag-co {
+	background-position: -96px -22px;
+}
+.famfamfam-flag-cr {
+	background-position: -112px -22px;
+}
+.famfamfam-flag-cu {
+	background-position: -128px -22px;
+}
+.famfamfam-flag-cv {
+	background-position: -144px -22px;
+}
+.famfamfam-flag-cx {
+	background-position: -160px -22px;
+}
+.famfamfam-flag-cy {
+	background-position: -176px -22px;
+}
+.famfamfam-flag-cz {
+	background-position: -192px -22px;
+}
+.famfamfam-flag-de {
+	background-position: -208px -22px;
+}
+.famfamfam-flag-dj {
+	background-position: -224px -22px;
+}
+.famfamfam-flag-dk {
+	background-position: -240px -22px;
+}
+.famfamfam-flag-dm {
+	background-position: -256px -22px;
+}
+.famfamfam-flag-do {
+	background-position: -272px -22px;
+}
+.famfamfam-flag-dz {
+	background-position: -288px -22px;
+}
+.famfamfam-flag-ec {
+	background-position: 0 -33px;
+}
+.famfamfam-flag-ee {
+	background-position: -16px -33px;
+}
+.famfamfam-flag-eg {
+	background-position: -32px -33px;
+}
+.famfamfam-flag-eh {
+	background-position: -48px -33px;
+}
+.famfamfam-flag-er {
+	background-position: -64px -33px;
+}
+.famfamfam-flag-es {
+	background-position: -80px -33px;
+}
+.famfamfam-flag-et {
+	background-position: -96px -33px;
+}
+.famfamfam-flag-fi {
+	background-position: -112px -33px;
+}
+.famfamfam-flag-fj {
+	background-position: -128px -33px;
+}
+.famfamfam-flag-fk {
+	background-position: -144px -33px;
+}
+.famfamfam-flag-fm {
+	background-position: -160px -33px;
+}
+.famfamfam-flag-fo {
+	background-position: -176px -33px;
+}
+.famfamfam-flag-fr {
+	background-position: -192px -33px;
+}
+.famfamfam-flag-ga {
+	background-position: -208px -33px;
+}
+.famfamfam-flag-gb {
+	background-position: -224px -33px;
+}
+.famfamfam-flag-gd {
+	background-position: -240px -33px;
+}
+.famfamfam-flag-ge {
+	background-position: -256px -33px;
+}
+.famfamfam-flag-gf {
+	background-position: -192px -33px;
+}
+.famfamfam-flag-gg {
+	background-position: -272px -33px;
+}
+.famfamfam-flag-gh {
+	background-position: -288px -33px;
+}
+.famfamfam-flag-gi {
+	background-position: 0 -44px;
+}
+.famfamfam-flag-gl {
+	background-position: -16px -44px;
+}
+.famfamfam-flag-gm {
+	background-position: -32px -44px;
+}
+.famfamfam-flag-gn {
+	background-position: -48px -44px;
+}
+.famfamfam-flag-gp {
+	background-position: -64px -44px;
+}
+.famfamfam-flag-gq {
+	background-position: -80px -44px;
+}
+.famfamfam-flag-gr {
+	background-position: -96px -44px;
+}
+.famfamfam-flag-gs {
+	background-position: -112px -44px;
+}
+.famfamfam-flag-gt {
+	background-position: -128px -44px;
+}
+.famfamfam-flag-gu {
+	background-position: -160px -44px;
+}
+.famfamfam-flag-gw {
+	background-position: -176px -44px;
+}
+.famfamfam-flag-gy {
+	background-position: -192px -44px;
+}
+.famfamfam-flag-hk {
+	background-position: -208px -44px;
+}
+.famfamfam-flag-hm {
+	background-position: -192px 0;
+}
+.famfamfam-flag-hn {
+	background-position: -224px -44px;
+}
+.famfamfam-flag-hr {
+	background-position: -240px -44px;
+}
+.famfamfam-flag-ht {
+	background-position: -256px -44px;
+}
+.famfamfam-flag-hu {
+	background-position: -272px -44px;
+}
+.famfamfam-flag-id {
+	background-position: -288px -44px;
+}
+.famfamfam-flag-ie {
+	background-position: 0 -55px;
+}
+.famfamfam-flag-il {
+	background-position: -16px -55px;
+}
+.famfamfam-flag-im {
+	background-position: -32px -55px;
+}
+.famfamfam-flag-in {
+	background-position: -48px -55px;
+}
+.famfamfam-flag-io {
+	background-position: -64px -55px;
+}
+.famfamfam-flag-iq {
+	background-position: -80px -55px;
+}
+.famfamfam-flag-ir {
+	background-position: -96px -55px;
+}
+.famfamfam-flag-is {
+	background-position: -112px -55px;
+}
+.famfamfam-flag-it {
+	background-position: -128px -55px;
+}
+.famfamfam-flag-je {
+	background-position: -160px -55px;
+}
+.famfamfam-flag-jm {
+	background-position: -176px -55px;
+}
+.famfamfam-flag-jo {
+	background-position: -192px -55px;
+}
+.famfamfam-flag-jp {
+	background-position: -208px -55px;
+}
+.famfamfam-flag-ke {
+	background-position: -224px -55px;
+}
+.famfamfam-flag-kg {
+	background-position: -240px -55px;
+}
+.famfamfam-flag-kh {
+	background-position: -256px -55px;
+}
+.famfamfam-flag-ki {
+	background-position: -272px -55px;
+}
+.famfamfam-flag-km {
+	background-position: -288px -55px;
+}
+.famfamfam-flag-kn {
+	background-position: -144px -56px;
+}
+.famfamfam-flag-kr {
+	background-position: 0 -66px;
+}
+.famfamfam-flag-kw {
+	background-position: -16px -66px;
+}
+.famfamfam-flag-ky {
+	background-position: -32px -66px;
+}
+.famfamfam-flag-kz {
+	background-position: -48px -66px;
+}
+.famfamfam-flag-la {
+	background-position: -64px -66px;
+}
+.famfamfam-flag-lb {
+	background-position: -80px -66px;
+}
+.famfamfam-flag-lc {
+	background-position: -96px -66px;
+}
+.famfamfam-flag-li {
+	background-position: -112px -66px;
+}
+.famfamfam-flag-lk {
+	background-position: -128px -66px;
+}
+.famfamfam-flag-lr {
+	background-position: -160px -66px;
+}
+.famfamfam-flag-ls {
+	background-position: -176px -66px;
+}
+.famfamfam-flag-lt {
+	background-position: -192px -66px;
+}
+.famfamfam-flag-lu {
+	background-position: -208px -66px;
+}
+.famfamfam-flag-lv {
+	background-position: -224px -66px;
+}
+.famfamfam-flag-ly {
+	background-position: -240px -66px;
+}
+.famfamfam-flag-ma {
+	background-position: -256px -66px;
+}
+.famfamfam-flag-mc {
+	background-position: -272px -66px;
+}
+.famfamfam-flag-md {
+	background-position: -288px -66px;
+}
+.famfamfam-flag-me {
+	height: 12px;
+	background-position: -144px -44px;
+}
+.famfamfam-flag-mf {
+	background-position: -192px -33px;
+}
+.famfamfam-flag-mg {
+	background-position: -144px -67px;
+}
+.famfamfam-flag-mh {
+	background-position: 0 -77px;
+}
+.famfamfam-flag-mk {
+	background-position: -16px -77px;
+}
+.famfamfam-flag-ml {
+	background-position: -32px -77px;
+}
+.famfamfam-flag-mm {
+	background-position: -48px -77px;
+}
+.famfamfam-flag-mn {
+	background-position: -64px -77px;
+}
+.famfamfam-flag-mo {
+	background-position: -80px -77px;
+}
+.famfamfam-flag-mp {
+	background-position: -96px -77px;
+}
+.famfamfam-flag-mq {
+	background-position: -112px -77px;
+}
+.famfamfam-flag-mr {
+	background-position: -128px -77px;
+}
+.famfamfam-flag-ms {
+	background-position: -171px -77px;
+}
+.famfamfam-flag-mt {
+	background-position: -187px -77px;
+}
+.famfamfam-flag-mu {
+	background-position: -203px -77px;
+}
+.famfamfam-flag-mv {
+	background-position: -219px -77px;
+}
+.famfamfam-flag-mw {
+	background-position: -235px -77px;
+}
+.famfamfam-flag-mx {
+	background-position: -251px -77px;
+}
+.famfamfam-flag-my {
+	background-position: -267px -77px;
+}
+.famfamfam-flag-mz {
+	background-position: -283px -77px;
+}
+.famfamfam-flag-na {
+	background-position: -144px -78px;
+}
+.famfamfam-flag-nc {
+	background-position: 0 -88px;
+}
+.famfamfam-flag-ne {
+	background-position: -16px -88px;
+}
+.famfamfam-flag-nf {
+	background-position: -32px -88px;
+}
+.famfamfam-flag-ng {
+	background-position: -48px -88px;
+}
+.famfamfam-flag-ni {
+	background-position: -64px -88px;
+}
+.famfamfam-flag-nl {
+	background-position: -80px -88px;
+}
+.famfamfam-flag-no {
+	background-position: -96px -88px;
+}
+.famfamfam-flag-np {
+	width: 9px;
+	background-position: -128px -99px;
+}
+.famfamfam-flag-nr {
+	background-position: -112px -88px;
+}
+.famfamfam-flag-nu {
+	background-position: -128px -88px;
+}
+.famfamfam-flag-nz {
+	background-position: -160px -88px;
+}
+.famfamfam-flag-om {
+	background-position: -176px -88px;
+}
+.famfamfam-flag-pa {
+	background-position: -192px -88px;
+}
+.famfamfam-flag-pe {
+	background-position: -208px -88px;
+}
+.famfamfam-flag-pf {
+	background-position: -224px -88px;
+}
+.famfamfam-flag-pg {
+	background-position: -240px -88px;
+}
+.famfamfam-flag-ph {
+	background-position: -256px -88px;
+}
+.famfamfam-flag-pk {
+	background-position: -272px -88px;
+}
+.famfamfam-flag-pl {
+	background-position: -288px -88px;
+}
+.famfamfam-flag-pm {
+	background-position: -144px -89px;
+}
+.famfamfam-flag-pn {
+	background-position: 0 -99px;
+}
+.famfamfam-flag-pr {
+	background-position: -16px -99px;
+}
+.famfamfam-flag-ps {
+	background-position: -32px -99px;
+}
+.famfamfam-flag-pt {
+	background-position: -48px -99px;
+}
+.famfamfam-flag-pw {
+	background-position: -64px -99px;
+}
+.famfamfam-flag-py {
+	background-position: -80px -99px;
+}
+.famfamfam-flag-qa {
+	background-position: -96px -99px;
+}
+.famfamfam-flag-re {
+	background-position: -192px -33px;
+}
+.famfamfam-flag-ro {
+	background-position: -112px -99px;
+}
+.famfamfam-flag-rs {
+	background-position: -160px -99px;
+}
+.famfamfam-flag-ru {
+	background-position: -176px -99px;
+}
+.famfamfam-flag-rw {
+	background-position: -192px -99px;
+}
+.famfamfam-flag-sa {
+	background-position: -208px -99px;
+}
+.famfamfam-flag-sb {
+	background-position: -224px -99px;
+}
+.famfamfam-flag-sc {
+	background-position: -240px -99px;
+}
+.famfamfam-flag-sd {
+	background-position: -256px -99px;
+}
+.famfamfam-flag-se {
+	background-position: -272px -99px;
+}
+.famfamfam-flag-sg {
+	background-position: -288px -99px;
+}
+.famfamfam-flag-sh {
+	background-position: -144px -100px;
+}
+.famfamfam-flag-si {
+	background-position: 0 -110px;
+}
+.famfamfam-flag-sj {
+	background-position: -96px -88px;
+}
+.famfamfam-flag-sk {
+	background-position: -16px -110px;
+}
+.famfamfam-flag-sl {
+	background-position: -32px -110px;
+}
+.famfamfam-flag-sm {
+	background-position: -48px -110px;
+}
+.famfamfam-flag-sn {
+	background-position: -64px -110px;
+}
+.famfamfam-flag-so {
+	background-position: -80px -110px;
+}
+.famfamfam-flag-sr {
+	background-position: -96px -110px;
+}
+.famfamfam-flag-ss {
+	background-position: -112px -110px;
+}
+.famfamfam-flag-st {
+	background-position: -128px -110px;
+}
+.famfamfam-flag-sv {
+	background-position: -160px -110px;
+}
+.famfamfam-flag-sy {
+	background-position: -176px -110px;
+}
+.famfamfam-flag-sz {
+	background-position: -192px -110px;
+}
+.famfamfam-flag-tc {
+	background-position: -208px -110px;
+}
+.famfamfam-flag-td {
+	background-position: -224px -110px;
+}
+.famfamfam-flag-tf {
+	background-position: -240px -110px;
+}
+.famfamfam-flag-tg {
+	background-position: -256px -110px;
+}
+.famfamfam-flag-th {
+	background-position: -272px -110px;
+}
+.famfamfam-flag-tj {
+	background-position: -288px -110px;
+}
+.famfamfam-flag-tk {
+	background-position: -144px -111px;
+}
+.famfamfam-flag-tl {
+	background-position: 0 -121px;
+}
+.famfamfam-flag-tm {
+	background-position: -16px -121px;
+}
+.famfamfam-flag-tn {
+	background-position: -32px -121px;
+}
+.famfamfam-flag-to {
+	background-position: -48px -121px;
+}
+.famfamfam-flag-tr {
+	background-position: -64px -121px;
+}
+.famfamfam-flag-tt {
+	background-position: -80px -121px;
+}
+.famfamfam-flag-tv {
+	background-position: -96px -121px;
+}
+.famfamfam-flag-tw {
+	background-position: -112px -121px;
+}
+.famfamfam-flag-tz {
+	background-position: -128px -121px;
+}
+.famfamfam-flag-ua {
+	background-position: -160px -121px;
+}
+.famfamfam-flag-ug {
+	background-position: -176px -121px;
+}
+.famfamfam-flag-um {
+	background-position: -192px -121px;
+}
+.famfamfam-flag-us {
+	background-position: -208px -121px;
+}
+.famfamfam-flag-uy {
+	background-position: -224px -121px;
+}
+.famfamfam-flag-uz {
+	background-position: -240px -121px;
+}
+.famfamfam-flag-va {
+	background-position: -256px -121px;
+}
+.famfamfam-flag-vc {
+	background-position: -144px -122px;
+}
+.famfamfam-flag-ve {
+	background-position: 0 -132px;
+}
+.famfamfam-flag-vg {
+	background-position: -16px -132px;
+}
+.famfamfam-flag-vi {
+	background-position: -32px -132px;
+}
+.famfamfam-flag-vn {
+	background-position: -48px -132px;
+}
+.famfamfam-flag-vu {
+	background-position: -64px -132px;
+}
+.famfamfam-flag-wf {
+	background-position: -80px -132px;
+}
+.famfamfam-flag-ws {
+	background-position: -160px -132px;
+}
+.famfamfam-flag-ye {
+	background-position: -176px -132px;
+}
+.famfamfam-flag-yt {
+	background-position: -192px -132px;
+}
+.famfamfam-flag-za {
+	background-position: -208px -132px;
+}
+.famfamfam-flag-zm {
+	background-position: -224px -132px;
+}
+.famfamfam-flag-zw {
+	background-position: -240px -132px;
+}

@@ -1,0 +1,259 @@
+.home-content {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 65px;
+	margin-bottom: 65px;
+	padding-top: 60px;
+	padding-left: 86px;
+	padding-right: 86px;
+	max-width: 1420px;
+    background-color: #fff;
+    opacity: 0.8;
+    box-shadow: 0px 0px 12px #999999;
+	min-height: 400px;
+	display: flex;
+	flex-direction: row;
+}
+
+.home-left-col {
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+}
+
+.home-right-col {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	width: 50%;
+}
+
+.home-welcome {
+	padding-right: 40%;
+}
+
+.home-welcome-image {
+	width: 700px;
+	height: 700px;
+	margin-left: -20px;
+	background-image: url(../../img/home_welcome_image.png);
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.home-welcome-image.small {
+	width: 500px;
+	height: 500px;
+}
+
+@media(max-width: 1450px) {
+	.home-content {
+		margin-left: 5%;
+		margin-right: 5%;
+		margin-top: 10%;
+	}
+}
+
+@media(max-width: 1350px) {
+	.home-welcome-image {
+		width: 500px;
+		height: 500px;
+	}
+	.home-welcome-image.small {
+		width: 400px;
+		height: 400px;
+	}
+
+	.home-welcome {
+		padding-right: 30%;
+	}
+}
+
+@media(max-width: 1150px) {
+	.home-content {
+		max-width: 1000px;
+	}
+
+	.home-welcome-image {
+		width: 400px;
+		height: 400px;
+		margin-top: 50px;
+	}
+
+	.home-welcome-image.small {
+		width: 300px;
+		height: 300px;
+		margin-top: 100px;
+		margin-left: 0px;
+	}
+	.home-welcome {
+		padding-right: 20%;
+	}
+}
+
+@media(max-width: 1024px) {
+	.home-content {
+		flex-direction: column;
+	}
+
+	.home-left-col {
+		width: 100%;
+		margin-bottom: 40px;
+	}
+
+	.home-right-col {
+		display: none;
+	}
+
+	.home-welcome {
+		padding-right: 0%;
+	}
+}
+
+.home-buttons {
+	height: 65px;
+	line-height: 65px;
+}
+
+.home-login-button {
+	height: 65px!important;
+	line-height: 65px!important;
+	max-height: unset!important;
+	border-radius: 7px!important;
+	padding: 0px!important;
+}
+
+.home-nav-bar-container {
+	background-color: #f6f6f6;
+	height: 42px;
+	line-height: 42px;
+}
+
+.home-nav-padding {
+	width: 330px;
+}
+
+
+.home-nav-bar-content {
+	max-width: 1630px;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	flex-direction: row;
+}
+
+.home-nav-tabs {
+	display: flex;
+	flex-direction: row;
+	color: #898F82;
+	text-align: center;
+	margin-left: 20px;
+}
+
+.home-nav-tab {
+	padding: 0px 4px;
+	cursor: pointer;
+}
+
+.home-nav-tab.active {
+	color: #ec5020;
+}
+
+.home-nav-tab:not(:last-child):after {
+	padding-left: 8px;
+	content: "|";
+}
+
+.home-main-content {
+	max-width: 1630px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 64px;
+	padding-right: 64px;
+}
+
+.home-categories-container {
+	max-width: 280px;
+	min-width: 280px;
+	max-height: 542px;
+	overflow-y: scroll;
+	color: #898F82;
+	font-weight: 500;
+}
+
+.home-category {
+	padding-left: 20px;
+	padding-right: 10px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	border-bottom: 1px solid #f1f1f1;
+}
+
+.placeholder {
+	background-image: url(../../img/home_welcome_image.png);
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.home-signup {
+	max-width: 374px!important;
+	max-height: 544px!important;
+	min-height: 544px!important;
+	padding-bottom: 16px!important;
+	padding-left: 3%!important;
+}
+
+.home-categories-tabs {
+	margin-top: -42px;
+	color: white;
+	text-align: left;
+	min-width: 280px;
+	height: 42px;
+	line-height: 42px;
+	font-weight: bold;
+	text-transform: uppercase;
+    display: flex;
+    flex-direction: row;
+}
+
+.home-categories-tab {
+    background-color: #F9B041;
+    width: 50%;
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+}
+
+.home-categories-tab.active {
+	background-color: #464646!important;
+    color: #f7f7f7!important;
+}
+
+.home-categories-tab-caret {
+    position: relative;
+    height: 8px;
+    margin-top: -8px;
+    width: 100%;
+    background-color: #f7f7f7!important;
+    clip-path: polygon(50% 0%, 45% 100%, 55% 100%);
+}
+
+.section-header {
+	width: 100vw;
+	background-color: #f6f6f6;
+	line-height: 90px;
+	font-weight: 600;
+	font-size: 16px;
+	color: #ED561B;
+	padding-right: 64px;
+	padding-left: 64px;
+}
+.content-width {
+	max-width: 1630px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-right: 64px;
+	padding-left: 64px;
+}

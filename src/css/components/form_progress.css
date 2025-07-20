@@ -1,0 +1,21 @@
+.form-progress {
+	display: flex;
+	justify-content: center;
+}
+.form-progress-entry {
+	height: 5px;
+	width: 6px;
+	background-color: theme('colors.primary.DEFAULT');
+	border-radius: 20px;
+}
+.form-progress-entry.active {
+	width: 30px;
+}
+
+.form-progress-entry-outer {
+	padding: 10px 5px;
+}
+.form-progress-entry-outer:hover {
+	background-color: gray;
+	border-radius: 20px;
+}
